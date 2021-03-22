@@ -1,0 +1,761 @@
+*{
+    margin: 0;
+    padding:0;
+}
+
+.conatiner_login {
+    background-image: url(../png/Banner.png);
+    background-size: cover;
+    margin: 0px;
+    height: 40vw;
+    width:100%
+}
+.row_css{
+    display: flex;
+    height: 100%;
+}
+.column{
+    width: 50%;
+    margin: 1% 2% 1% 6%;
+}
+.aster_logo {
+    margin: 10% 14% 4%;
+    width: 35%;
+    /* width: 239px; */
+  /* height: 239px; */
+}
+.img_size{
+    /* width: 50%; */
+    width: 100%;
+}
+.adultcss{
+    color: #FFFFFF;
+    font-family: Titillium;
+    font-size: 1.2vw;
+    letter-spacing: 1px;
+    line-height: 2.5vw;
+    width: 100%;
+    padding: 2%;
+    margin: 0% 11%;
+}
+.adultMainPara{
+    color: #FFFFFF;
+    font-family: Titillium;
+    font-size: 1.5vw;
+    letter-spacing: .128vw;
+    /* line-height: 40px; */
+    /* width: 622px; */
+    text-align: left;
+    font-weight: bold;
+    
+  
+}
+p{
+    margin:0;
+    color: white;
+}
+.sub_para{
+    text-align: left;    
+    font-size: 1.5vw;
+    width: 100%;
+    margin: 1% 0;
+    opacity: 0.5;
+    
+}
+.button_appointment{
+    background-color: #DD5A6A;
+    border-radius: 3.2px;
+    width: 32%;
+    height: 3vw;
+    font-size: 1vw;
+    color: white;
+    border: 1px solid #DD5A6A;
+    font-weight: bold;
+}
+
+
+/*---Rightside---*/
+.card_body{
+    margin: 3% 28%;
+    height: 87%;
+    padding: 2%;
+    background-color: white;
+    width: 45%;
+}
+.enquiry_css{
+    color: #213559;
+    font-family: StagSans-Medium;
+    font-size: 1.5vw;
+    font-weight: bold;
+    line-height: 3vw;
+    width: 77%;
+    text-align: left;
+    text-shadow: 0 0 1px rgb(0 0 0 / 50%);
+    margin: 2% 5%;
+    height: 8%;
+}
+.input_div {
+    margin: 4%;
+    line-height: 2vw;  /* control of input unwanted height*/
+    height: 85%;
+    width: 90%;
+}
+.card_input {
+    height: 5%;
+    border: 0.87px solid #D0D0D0;
+    width: 100%;
+    font-size: 1.5vw;    
+}  
+::placeholder {   
+    font-size: 1.5vw;  
+    color: #D0D0D0;
+  font-family: StagSans;
+  line-height: 15px;  
+  text-align: left;   
+  }
+  .text_area{
+    width: 100%;
+    margin: 3% 0; 
+    border: 0.87px solid #D0D0D0;
+    font-size: 1.5vw;
+    height: 20%;
+    }
+    /* .g-recaptcha { */
+        /* transform: scale(.3);
+        transform-origin: 0 0; */
+        /* height: 20%; */
+        /* background-color: #FFFFFF;
+        border: 0.87px solid #D0D0D0;
+        width: 278px;
+        height: 77px; */
+
+
+        /* width: desired_width;
+
+        border-radius: 4px;
+        border-right: 1px solid #d8d8d8;
+        overflow: hidden;
+        margin-right: 6%; */
+        
+    /* } */
+    
+    .captchamargin{
+        width: desired_width;
+
+        border-radius: 4px;
+        border-right: 1px solid #d8d8d8;
+        overflow: hidden;
+    }
+
+    .button_submit{    
+        background-color: #DD5A6A;
+        border-radius: 3.2px;
+        color: white;
+        font-weight: bold;
+        border: 1px solid #DD5A6A;
+        font-size: 1vw;
+        margin-top: 6%;
+        width: 25%;
+        height: 10%;
+    }
+
+/*Born Img*/
+.born_img{
+    width: 80%;
+    height: 90%;
+}
+.borncolumn{
+    width: 45%;
+}
+.borncolumnRight{
+    margin: 2%;
+    width: 55%;
+}
+.pngCss {
+    width: 100%;
+    height: 25%;
+}
+.Born_label{
+    margin: 3% 0%;
+    width: 100%;
+    line-height: 2vw;
+    font-family: StagSans-Light;
+    font-size: 1.5vw;
+    color: black;
+}
+.container2{
+    margin: 1% 0%;
+}
+.doct_sideMargin{
+    margin: 0 9%;
+}
+.doctors{
+    color: #24b88f;
+    margin: 0 10%;
+    font-family: StagSans-Medium;
+    font-size: 2.5vw;
+}
+.doc_col{   
+          background-color: #F9F9FF;
+    border-radius: 4px;
+    width: 50%;
+    height: 100%;
+    margin: 1%;
+    padding: 2%;
+}
+.doc_heading{    
+    color: #24b88f;
+    font-size: 1.8vw;
+    text-align: center;
+    margin: 5%;
+}
+.doc_img{
+    width: 35%;
+    height: 15%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5% 10%;
+}
+.doc_name{
+    color: #1D5AA6;
+    font-size: 1.5vw;
+    text-align: center;
+    line-height: 2vw;
+}
+.doc_border{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-bottom: 1px solid  #ECECFF;
+    width: 80%;
+}
+.Green_border{
+    border-bottom: 1px solid #22B78E;
+    padding: 1% 5%;
+    width: 1%;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+}
+.doc_SecName{
+    font-size: 1.5vw;
+    color: black;
+    width: 75%;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    text-align: center;
+    padding: 3%;
+}
+.btn_knowMore{
+    width: 20%;
+    height: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding: 5%;
+}
+.OnlyMargin{
+    margin-top: 5%;
+}
+
+/* Question parts */
+.column_Qus_img{
+    width: 5%;
+    margin-left: 2%;
+    text-align: center;
+}
+.column_Qus{
+    width: 92%;
+    color: black;
+    margin-left: 3%;
+    font-size: 1.5vw;
+}
+.plus_img{
+    width: 40%;
+    margin-bottom: 30%;
+    /* height: 60%; */
+}
+.para_container3{
+    color: black;
+}
+.div_row{
+    margin: 3% 2% !important;
+}
+.row_margin{
+    margin: 1%;
+}
+
+/*...container4...*/
+
+.column_4{
+    width: 25%;
+}
+.rectangle{
+    background-color: #FFFFFF;
+    border: 1px solid #E5EAFF;
+    border-radius: 4px;
+    box-shadow: 3px 5px 29px 0 rgb(187 165 228 / 10%);
+    width: 25%;
+    height: 25%;
+    margin: 1%;
+    padding: 1%;
+ 
+  /* width: 255px;
+  height: 170px; */
+}
+.icon{
+    margin: 2%;
+}
+.icon_size{
+    width: 25%;
+    height: 25%;
+    margin: 5%;
+}
+.icon_text{
+    color: black;
+    font-size: 1.4vw;
+}
+.alterone{
+    padding: 3.6% 1%;
+}
+.altertwo{
+    padding: 3% 1%;
+}
+/*wH part*/
+.bluedown{
+    font-size: 1.6vw;
+    color:#1D5AA6;
+    font-weight: bold;
+    border-bottom: 1px solid #ECECFF;
+    line-height: 6vw;
+    font-family: StagSans-Medium;
+}
+.div_row2{
+    margin: 3% 8% !important;
+}
+.column_typ{
+    width: 90%;
+}
+.column_type{
+    width: 10%;
+}
+.downarw{
+    width:25%;
+    height: 25%;
+}
+.para{
+    color: black;
+    font-family: StagSans-Light;
+    margin: 1% 0;
+    width: 50%;
+    font-size: 1.5vw;
+}
+.rectangle2{
+    background-color: #FFFFFF;
+    border-radius: 4px;
+    box-shadow: 9px 8px 27px 0 rgb(0 0 0 / 4%);
+    width: 100%;
+    height: 15vw;
+    padding: 2%;
+}
+.personTwo{
+    width: 65%;
+    height: 80%;
+}
+.fiftyPer{
+    height: 50%;
+}
+.John_doe{
+   
+        color: #000000;
+        font-family: StagSans;
+        font-size: 2vw;
+        line-height: 3vw;
+        text-align: left;
+        font-weight: bold;
+   
+}
+.John_soft{
+    font-size: 1.5vw;
+}
+.Columnthrity{
+    width: 30%;
+}
+.Columnfive{
+    width: 70%;
+    margin:3%;
+}
+.John_Paragraph{
+    font-style: italic;
+    font-size: 1vw;
+    color: black;
+    margin: 1%;
+}
+.buk_button{
+    width: 20%;
+    height: 3vw;
+    font-size: 1vw;
+    color: white;
+    font-weight: bold;
+    background-color: #004498;
+    border: 1px solid #004498;
+    border-radius: 0.2px;
+}
+.downbutton{
+    text-align: center;
+}
+.footer{
+    background-color: #272727;
+    width: 100%;
+    color: white;
+    text-align: center;
+    padding: 0 0 7% 0;
+}
+.socialMedia{
+      align-items: center;       
+    margin: 3% 0!important;
+    width: 2%;
+    }
+.footerdash{
+        opacity: 0.30;
+        border-bottom: 2px solid ;
+        margin: 2% 10%;
+        background-color: #272727;
+    }
+.lastdiv{
+        opacity: 0.51; margin: 2%;
+        background-color: #272727;
+        font-size: 1.5vw;
+    }
+    .card_Error{       
+        border: 2px solid #DD5A6A;
+        color:black;
+        height: 5%;       
+        width: 90%;
+        font-size: 1.5vw; 
+    }
+
+
+
+@media (min-width: 320px) { 
+                        .input_div {                            
+                            line-height: 3vw;
+                        }
+                        .sub_para {
+                            
+                            font-size: 1.4vw;
+                        }                        
+                        ::placeholder{
+                            font-size: 1vw;
+                            padding: 1px 3px ;
+                        }
+                        .card_body{
+                            /* margin: 3% 32%; */
+                            margin: 3% 28%;
+                        }
+                        .button_appointment {                           
+                            font-size: .8vw;
+                            border-radius: 0.2px;
+                        }
+                        /* .g-recaptcha { */
+                            /* transform: scale(.21);                            */
+                            /* width: desired_width;
+
+                            border-radius: 4px;
+                            border-right: 1px solid #d8d8d8;
+                            overflow: hidden;
+                            height: 16%;
+                            margin-top: 3%;
+                        } */
+                        .button_submit {
+                            font-size: .8vw;
+                            border-radius: 0.2px;
+                        }
+                        .card_input {
+                            height: 8%;
+                            border: 1px solid #D0D0D0
+                        }
+                        .text_area{
+                            margin: 4% 0 3%
+                            border: 1px solid #D0D0D0
+                        }
+                        .Born_label {                            
+                            font-size: 1vw;
+                        }                    
+                    .button_submit {                        
+                        margin-top: 10%;
+                    }
+                    .padd{
+                        padding: 5% 0;
+                    }
+                    .padd2{
+                        padding: 4% 0;
+                    }
+                        
+
+                     }
+                    
+                    
+                  
+@media (min-width: 480px) and (max-width: 600px) { 
+                        .adultcss {                           
+                            font-size: 1.5vw;                            
+                        }
+                        .sub_para {                            
+                            font-size: 1.6vw;
+                        }
+                        .input_div {                            
+                            line-height: 4vw;
+                        }
+                        ::placeholder{
+                            font-size: 1.2vw;
+                            padding-left: 1.5%;
+                        }
+                        .adultMainPara {                           
+                            font-size: 1.57vw;
+                        }
+                        .padd{
+                            padding: 1% 0;
+                        }
+                        .padd{
+                            padding: 5% 0;
+                        }
+                        .button_submit {
+                            margin-top: 8%;
+                        }
+                        
+                     }
+
+                    
+                   
+                    @media (min-width: 601px) { 
+                        .adultcss {                           
+                            font-size: 1.8vw;                            
+                        }
+                        .sub_para {                            
+                            font-size: 1.9vw;
+                        }
+                        .adultMainPara {                            
+                            font-size: 1.7vw;
+                        }
+                        .input_div {                            
+                            line-height: 4vw;
+                        }
+                        ::placeholder{
+                            font-size: 1.2vw;
+                            padding-left: 1.5%;
+                        }
+                        .card_body{
+                            margin: 3% 28%;
+                        }
+                        /* .g-recaptcha { */
+                            /* transform: scale(.39); */
+                            /* width: desired_width;
+
+                            border-radius: 4px;
+                            border-right: 1px solid #d8d8d8;
+                            overflow: hidden;
+
+                        } */
+                        .g-recaptcha {                         
+                                margin: 1px;
+                                height: 17%;
+                           
+                        }
+                        .button_submit {                           
+                            margin-top: 0%;                           
+                        }
+                        .padd{
+                            padding: 5% 0;
+                        }
+                     }                  
+
+                     @media (min-width: 700px){
+                        .padd{
+                            padding: 5% 0;
+                        }
+                    }
+                 
+                    @media (min-width: 769px) and (max-width: 900px) { 
+                        .adultcss {                           
+                            font-size: 2vw;                            
+                        }
+                        .sub_para {
+                            font-size: 2.2vw;
+                        }
+                        .input_div {                            
+                            line-height: 4vw;
+                        }
+                        .card_input, .text_area {                            
+                            padding: 1%;
+                        }
+                        .card_Error{  
+                            padding: 1%;
+                        } 
+                        ::placeholder{
+                            font-size: 1.2vw;
+                            padding-left: 1.5%;
+                        }
+                        .card_body{
+                            margin: 3% 28%;
+                        }
+                        .adultMainPara {                            
+                            font-size: 1.9vw;
+                        }
+                        /* .g-recaptcha { */
+                            /* transform: scale(.46); */
+                            /* width: desired_width;
+
+                            border-radius: 4px;
+                            border-right: 1px solid #d8d8d8;
+                            overflow: hidden;
+                        } */
+                     }
+                    @media (min-width: 900px) and (max-width: 1024px) { 
+                        .adultcss {                           
+                            font-size: 2vw;                            
+                        }
+                        .sub_para {
+                            font-size: 2.2vw;
+                        }
+                        .adultMainPara {                            
+                            font-size: 1.9vw;
+                        }
+                        .input_div {
+                           
+                            line-height: 4vw;
+                        }
+                        ::placeholder{
+                            font-size: 1.2vw;
+                            padding-left: 1.5%;
+                        }
+                        .card_input, .card_Error {
+                            padding: 2%;
+                            margin-top: 2%;
+                        }
+                        .text_area {
+                            padding: 0 2%; 
+                        }
+                        .button_submit {
+                            
+                            margin-top: 4%;
+                           
+                        }
+                        .card_body{
+                            margin: 3% 28%;
+                        }
+                        /* .g-recaptcha { */
+                            /* transform: scale(.53); */
+                            /* width: desired_width;
+
+                            border-radius: 4px;
+                            border-right: 1px solid #d8d8d8;
+                            overflow: hidden;
+                        } */
+                     }
+                    @media (min-width: 1024px) and (max-width: 1200px) { 
+                        .adultcss {                           
+                            font-size: 2vw;                            
+                        }
+                        .sub_para {
+                            font-size: 2.2vw;
+                        }
+                        .adultMainPara {                            
+                            font-size: 1.9vw;
+                        }
+                        ::placeholder{
+                            font-size: 1.2vw;
+                            padding-left: 1.5%;
+                        }
+                        .card_input, .text_area {
+                            padding: 1%;
+                            border: 0.87px solid #D0D0D0;
+                        }
+                        .card_Error{  
+                            padding: 1%;
+                        }
+                        .input_div {                            
+                            line-height: 3.3vw;
+                        }    
+                        .button_submit {
+                            
+                            margin-top: 4%;
+                           
+                        }    
+                        /* .g-recaptcha {             */
+                            /* transform: scale(.56);
+                            background-color: #FFFFFF;
+                            border: 0.87px solid #D0D0D0; */
+                            /* width: 278px;
+                            height: 77px; */   
+                            
+                            /* width: desired_width;
+
+                            border-radius: 4px;
+                            border-right: 1px solid #d8d8d8;
+                            overflow: hidden;
+                                }  */
+                                .card_body{
+                                    margin: 3% 28%;
+                                }
+                                      
+                     }
+                     @media (min-width: 1200px) { 
+                        .adultcss {                           
+                            font-size: 2vw;                            
+                        }
+                        .sub_para {
+                            font-size: 2.2vw;
+                        }
+                        .adultMainPara {                            
+                            font-size: 1.9vw;
+                        }
+                        .input_div {                            
+                            line-height: 3.3vw;
+                        }  
+                        .card_input {
+                            padding: 1% 2%;
+                            border: 0.87px solid #D0D0D0;
+                            height: 30px;
+                        }  
+                        .text_area{
+                            padding: 3% 2%;
+                            border: 0.87px solid #D0D0D0;
+                            height: 72px;
+                        }
+                        .card_Error{  
+                            padding: 1%;
+                        }
+                        .button_submit {                            
+                            margin-top: 4%;                           
+                        }   
+                        ::placeholder{
+                            font-size: 1.2vw;
+                            padding-left: 1.5%;
+                        }
+                        /* .g-recaptcha { */
+                            /* transform: scale(.73); */
+                            
+                           
+                            /* width: desired_width;
+
+border-radius: 4px;
+border-right: 1px solid #d8d8d8;
+overflow: hidden;
+                        } */
+                        .card_body{
+                                    margin: 3% 28%;
+                                    width: 50%;
+                        }
+                        .card_input, .text_area {                            
+                            width: 95%;
+                        }
+                     }
+                     @media(max-width: 1700px) {
+                        .g-recaptcha {
+                            margin: 1px;
+                            height: 15%;
+                        }
+                    }
